@@ -34,6 +34,10 @@ Calculator created in ReactJS + Go.
 
 </a>
 
+### v0.0.3-20250812
+
+- Correction in output.
+
 ### v0.0.2-20250812
 
 - Removed `React Icons` library.
