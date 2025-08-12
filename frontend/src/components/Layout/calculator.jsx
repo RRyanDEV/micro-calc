@@ -1,20 +1,13 @@
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import Operators from "../Operators";
+import Keyboard from "../Keyboard";
 
 export default function Calculator() {
   return (
     <>
-      <div id="parent-calc" className="h-1/2 w-1/2">
-        <Card className="h-3/4 gap-0 clean-margin">
-          <CardHeader className="clean-margin">
-            <div id="output-result" className="flex rounded-t-xl p-5 justify-end bg-black/90">
-            <p className="text-2xl text-white">56</p>
-            </div>
-          </CardHeader>
-          <CardContent className="clean-margin">
-            <Operators/>
-          </CardContent>
-        </Card>
+      <div id="parent-calc" className="flex flex-col h-3/4 w-1/2 rounded-2xl bg-gradient-to-tr from-gray-500 to-gray-300">
+        <div id="output" className="flex font-bold rounded-t-lg p-3 justify-end bg-yellow-500">
+          <h1 className="text-black">10987654321</h1>
+        </div>
+        <Keyboard/>
       </div>
     </>
   );

@@ -1,6 +1,6 @@
+import { Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
-import { FaMoon } from "react-icons/fa";
-import { IoSunny } from "react-icons/io5";
+
 
 export default function SwitchTheme() {
   let [darkMode, setDarkMode] = useState("false");
@@ -20,7 +20,7 @@ export default function SwitchTheme() {
         }}
         className="z-10 absolute max-sm:right-3 right-10 top-5 text-white dark:text-black text-xl px-5 py-3 rounded"
       >
-        {darkMode ? <IoSunny /> : <FaMoon />}
+        {darkMode ? <Sun /> : <Moon />}
       </button>
     </>
   );

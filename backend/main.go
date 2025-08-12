@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	http.HandleFunc("/calculate", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/frontend", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "Hello Calc Go!")
 	})
 

@@ -34,6 +34,13 @@ Calculator created in ReactJS + Go.
 
 </a>
 
+### v0.0.2-20250812
+
+- Removed `React Icons` library.
+- Installed the `Lucide Icons` library.
+- Restructuring the project in the `frontend` folder.
+- Adjustments to the `Calculator Keyboard` component.
+
 ### v0.0.1-20250809
 
 - Install Go.
