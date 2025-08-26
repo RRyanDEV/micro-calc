@@ -1,11 +1,25 @@
 import { Button } from "@/components/ui/button";
-import { CircleDivide, CircleEqual, CircleMinus, CirclePlus, CircleX } from "lucide-react";
+import {
+  CircleDivide,
+  CircleEqual,
+  CircleMinus,
+  CirclePlus,
+  CircleX,
+} from "lucide-react";
+
+const something = () => {};
 
 export default function Operators() {
   return (
     <>
-      <div id="parent-operators" className="flex h-full bg-purple-800 clean-margin">
-        <div id="operatos" className="flex flex-col w-full items-center h-full justify-evenly">
+      <div
+        id="parent-operators"
+        className="flex h-full bg-purple-800 clean-margin"
+      >
+        <div
+          id="operatos"
+          className="flex flex-col w-full items-center h-full justify-evenly"
+        >
           <Button className="cursor-pointer hover:bg-blue-500" size="sm">
             <CircleDivide />
           </Button>

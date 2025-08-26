@@ -34,6 +34,11 @@ Calculator created in ReactJS + Go.
 
 </a>
 
+### v0.0.4-20250825
+
+- Installed the `React Icons` library.
+- Fixed keyboard icons layout.
+
 ### v0.0.3-20250812
 
 - Correction in output.
