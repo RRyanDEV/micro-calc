@@ -7,18 +7,16 @@ import {
   CircleX,
 } from "lucide-react";
 
-const something = () => {};
-
 export default function Operators() {
   return (
     <>
       <div
         id="parent-operators"
-        className="flex h-full bg-purple-800 clean-margin"
+        className="flex h-full bg-purple-800 justify-end clean-margin"
       >
         <div
           id="operatos"
-          className="flex flex-col w-full items-center h-full justify-evenly"
+          className="flex flex-col w-full bg-emerald-400 items-center justify-evenly"
         >
           <Button className="cursor-pointer hover:bg-blue-500" size="sm">
             <CircleDivide />

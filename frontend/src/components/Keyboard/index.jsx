@@ -8,7 +8,7 @@ export default function Keyboard() {
         <div id="left" className="bg-green-700 h-full w-11/12">
           <NumericKeypad />
         </div>
-        <div id="right" className="bg-red-800 h-full w-1/2">
+        <div id="right" className="bg-red-800 h-full">
           <Operators />
         </div>
       </div>
