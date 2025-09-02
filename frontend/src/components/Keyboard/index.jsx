@@ -5,10 +5,10 @@ export default function Keyboard() {
   return (
     <>
       <div id="parent-keyboard" className="flex flex-row h-full">
-        <div id="left" className="bg-green-700 h-full w-11/12">
+        <div id="left" className="bg-green-700 h-full w-1/2">
           <NumericKeypad />
         </div>
-        <div id="right" className="bg-red-800 h-full">
+        <div id="right" className="bg-red-800 h-full w-1/2">
           <Operators />
         </div>
       </div>

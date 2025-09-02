@@ -16,21 +16,21 @@ export default function Operators() {
       >
         <div
           id="operatos"
-          className="flex flex-col w-full bg-emerald-400 items-center justify-evenly"
+          className="flex flex-col bg-emerald-400/30 items-center justify-evenly"
         >
-          <Button className="cursor-pointer hover:bg-blue-500" size="sm">
+          <Button className="hover:cursor-pointer hover:bg-blue-500">
             <CircleDivide />
           </Button>
-          <Button className="cursor-pointer hover:bg-blue-500" size="sm">
+          <Button className="hover:cursor-pointer hover:bg-blue-500">
             <CircleX />
           </Button>
-          <Button className="cursor-pointer hover:bg-blue-500" size="sm">
+          <Button className="hover:cursor-pointer hover:bg-blue-500">
             <CircleMinus />
           </Button>
-          <Button className="cursor-pointer hover:bg-blue-500" size="sm">
+          <Button className="hover:cursor-pointer hover:bg-blue-500">
             <CirclePlus />
           </Button>
-          <Button className="cursor-pointer hover:bg-blue-500" size="sm">
+          <Button className="hover:cursor-pointer hover:bg-blue-500">
             <CircleEqual />
           </Button>
         </div>

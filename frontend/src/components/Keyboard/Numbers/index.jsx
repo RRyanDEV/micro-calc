@@ -1,7 +1,3 @@
-import { Button } from "@/components/ui/button";
-import { Diff, Percent } from "lucide-react";
-// import numbers from "@/data/number-value";
-
 // Icons
 import {
   Bs0Circle,
@@ -33,23 +29,7 @@ const numbersIcon = {
 export default function NumericKeypad() {
   return (
     <>
-      <div id="parent-numericpad">
-        <div className="bg-blue-800">
-          <div id="buttons-header" className="flex justify-around flex-row">
-            <Button className="cursor-pointer hover:bg-blue-500" size="sm">
-              <Diff />
-            </Button>
-            <Button className="cursor-pointer hover:bg-blue-500" size="sm">
-              <Percent />
-            </Button>
-          </div>
-        </div>
-        <div id="parent-numberpad" className="flex flex-col h-full bg-red-500 items-center justify-center">
-          <button className="bg-gray-900 hover:bg-gray-600 hover:cursor-pointer p-2 rounded-sm">
-            <Bs0Circle />
-          </button>
-        </div>
-      </div>
+      
     </>
   );
 }

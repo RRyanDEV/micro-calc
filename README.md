@@ -34,6 +34,12 @@ Calculator created in ReactJS + Go.
 
 </a>
 
+### v0.0.6-20250901
+
+- Modification in the size of the operators and the numeric keypad.
+- Removed the function that performed recursion on the `.json` to generate the numeric keypad buttons.
+- Removed the component that generated the numeric keypad.
+
 ### v0.0.5-20250827
 
 - Created a `json` to store the value and id of each keyboard number.
